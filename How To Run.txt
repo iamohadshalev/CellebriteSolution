@@ -1,0 +1,11 @@
+1. Install latest version of Chrome browser.
+2. Install latest version of Firefox browser.
+3. From this solution, copy folder contains browser drivers (called "SeleniumWebDrivers") to where ever you want in your pc.
+	Finally, copy the full path of that folder (Example: C:\Program Files\SeleniumWebDrivers), and add it to PATH environment variable of your PC.
+	(Win key + R -> type: "sysdm.cpl ,3" -> choose "Environment Variables" -> Upon the upper frame, edit variable called "PATH" (or add new if not exist),
+	and give it the last value you copied.)
+4. Open the solution (you need Visual Studio installed).
+5. If "Test Explorer" window is not opened already, open it via Test -> Test Explorer.
+6. Click on the menu of the "play" button (green triangle icon, located one step before the most left button) and choose between running all tests, or single test only (in this case, you need to select it before)
+7. My solution supports all browser that are supported by Selenium. 
+	But currently, Chrome only works perfectly, and others (like firefox) require me to do few tweaks in test cases.
